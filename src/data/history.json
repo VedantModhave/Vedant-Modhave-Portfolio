@@ -1,0 +1,22 @@
+[
+  {
+    "role": "Intern",
+    "organisation": "JSW Steel",
+    "startDate": "June, 2024",
+    "endDate": "July, 2024",
+    "experiences": ["Developed a Digital Signature Application using React and Firebase", "Focused on enhancing user authentication with pdf signing feature"],
+    "imageSrc": "history/jsw.jpeg"
+  },
+
+  {
+    "role": "Core Team Member",
+    "organisation": "GDG TSEC",
+    "startDate": "Sept, 2023",
+    "endDate": "Present",
+    "experiences": [
+      "Organized an UI/UX Hackathon",
+      "Facilitated the Google Cloud Study Jams"
+    ],
+    "imageSrc": "history/gdg1.png"
+  }
+]
