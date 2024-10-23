@@ -13,14 +13,14 @@
     "description": "A Digital Signature Tool, a simple, secure website built using React.js and Firebase to sign your PDFs with authentication",
     "skills": ["React", "Firebase", "jsPDF"],
     "demo": "https://pdftron-sign-app-bf74e.web.app",
-    "source": "https://www.github.com"
+    "source": "https://github.com/VedantModhave/Signexo"
   },
   {
     "title": "EcoDrive",
     "imageSrc": "projects/ecodrive.png",
     "description": "A carpooling application that enhances ride-sharing experiences by providing real-time distances with fares and leveraging Maps API to display available drivers along your chosen route.",
     "skills": ["React", "Firebase", "Google Maps"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "demo": "https://8jt689-5173.csb.app/home",
+    "source": "https://github.com/VedantModhave/EcoDrive"
   }
 ]
