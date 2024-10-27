@@ -5,7 +5,7 @@
     "description": "Developed a comprehensive platform for efficient NGO management, featuring user-friendly interfaces, secure authentication, and role-based access for managing volunteers, admins, and other operational aspects.",
     "skills": ["React", "Firebase", "Chatbase"],
     "demo": "https://nfcngo-41f2b.firebaseapp.com",
-    "source": "https://github.com/VedantModhave/NFC_3.0_Status200.git"
+    "source": "https://github.com/VedantModhave/NFC_3.0_Status200"
   },
   {
     "title": "Signexo",
@@ -13,7 +13,7 @@
     "description": "A Digital Signature Tool, a simple, secure website built using React.js and Firebase to sign your PDFs with authentication",
     "skills": ["React", "Firebase", "jsPDF"],
     "demo": "https://pdftron-sign-app-bf74e.web.app",
-    "source": "https://www.github.com"
+    "source": "https://github.com/VedantModhave/Signexo"
   },
   {
     "title": "EcoDrive",
