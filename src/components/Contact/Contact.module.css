@@ -22,7 +22,7 @@
 .text h2 {
   font-size: 48px;
   font-weight: 700;
-  color: var(--color-primary);
+  color: white;
   letter-spacing: 2px;
   margin-bottom: 10px;
 }
@@ -52,17 +52,17 @@
   width: 100%;
   padding: 15px;
   font-size: 18px;
-  border: 2px solid var(--color-border);
+  border: 2px solid var(white);
   border-radius: 6px;
-  background-color: var(--color-input-background);
-  color: var(--color-text);
+  background-color: var(--color-button-text);
+  color: white;
   outline: none;
   transition: border-color 0.3s ease;
 }
 
 .formGroup input:focus,
 .formGroup textarea:focus {
-  border-color: var(--color-primary);
+  border-color: white;
 }
 
 textarea {
@@ -83,15 +83,12 @@ textarea {
   text-align: center;
 }
 
-/* Hover effect for Let's talk button */
 .submitButton:hover {
   background-color: var(--color-primary);
-  /* color: #9da8d3; Text color changes on hover */
-  transform: scale(1.05); /* Slightly enlarges the button */
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Adds subtle shadow */
+  transform: scale(1.05); 
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Responsive Design */
 @media screen and (max-width: 830px) {
   .container {
     padding: 20px 5%;
@@ -116,72 +113,3 @@ textarea {
     text-align: center;
   }
 }
-
-
-
-
-
-/* @import "../../vars.css";
-
-.container {
-  color: var(--color-text);
-  margin-top: 120px;
-  background-color: var(--color-secondary);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  width: 100vw;
-  padding: 58px 10%;
-  gap: 10px;
-}
-
-.text h2 {
-  font-size: 80px;
-  font-weight: 700;
-  letter-spacing: 4px;
-}
-
-.text p {
-  font-size: 40px;
-  font-weight: 400;
-  letter-spacing: 2px;
-}
-
-.links {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  list-style: none;
-  gap: 26px;
-}
-
-.link {
-  display: flex;
-  align-items: center;
-  gap: 25px;
-}
-
-.link a {
-  color: var(--color-text);
-  text-decoration: none;
-  font-size: 30px;
-  font-weight: 400;
-  letter-spacing: 1.5px;
-}
-
-@media screen and (max-width: 830px) {
-  .container {
-    flex-direction: column;
-    gap: 23px;
-  }
-
-  .text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .links {
-    align-items: center;
-  }
-} */
