@@ -17,7 +17,7 @@ export const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const formURL = "https://getform.io/f/bdrydpdb";
+    const formURL = "https://getform.io/f/bkkkeopb";
     fetch(formURL, {
       method: "POST",
       headers: {
