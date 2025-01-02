@@ -10,8 +10,14 @@
   justify-content: space-between;
   padding: 20px 10%;
   z-index: 1000;
-  background-color: var(--color-secondary);
+  background: rgba(11, 42, 102, 0.8);
+  backdrop-filter: blur(8px);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease;
+}
+
+.navbar.scrolled {
+  background: rgba(1, 34, 70, 0.8);
 }
 
 .title {
@@ -40,27 +46,28 @@
   color: var(--color-text);
   text-decoration: none;
   position: relative;
-  transition: color 0.3s ease; /* Add transition for smooth color change */
+  transition: color 0.3s ease;
 }
 
 .menuItems a:hover {
-  color: var(--color-primary); /* Change text color on hover */
+  color: var(--color-text);
 }
 
 .menuItems a::after {
   content: "";
   position: absolute;
-  bottom: -5px; /* Position the underline just below the text */
+  bottom: -5px;
   left: 0;
   width: 100%;
-  height: 2px; /* Line thickness */
-  background-color: var(--color-primary); /* Line color */
-  transform: scaleX(0); /* Initially hidden */
-  transition: transform 0.3s ease; /* Smooth transition for the underline */
+  height: 2px;
+  background: linear-gradient(90deg, rgba(0, 123, 255, 1) 0%, rgba(0, 123, 255, 0.5) 100%);
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.7);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
 }
 
 .menuItems a:hover::after {
-  transform: scaleX(1); /* Show the underline on hover */
+  transform: scaleX(1);
 }
 
 @media screen and (max-width: 830px) {
@@ -109,5 +116,10 @@
 
 body {
   padding-top: 80px;
+}
+
+.navbar.transparent {
+  background-color: rgba(1, 34, 70, 0.8);
+  backdrop-filter: blur(8px);
 }
 
