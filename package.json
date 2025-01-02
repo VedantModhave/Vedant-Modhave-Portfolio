@@ -1,5 +1,5 @@
 {
-  "homepage": "https://VedantModhave.github.io/PortfolioWeb",
+  "homepage": "https://VedantModhave.github.io/Portfolio",
   "name": "react-portfolio",
   "private": true,
   "version": "0.0.0",
@@ -11,13 +11,16 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist --dotfiles"
   },
   "dependencies": {
     "@fontsource/outfit": "^5.0.8",
     "@fontsource/roboto": "^5.0.8",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.4.0",
+    "react-toastify": "^11.0.2",
+    "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

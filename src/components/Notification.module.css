@@ -1,0 +1,28 @@
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: var(--color-secondary);
+    color: var(--color-text);
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .closeButton {
+    background: none;
+    border: none;
+    color: var(--color-text);
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .closeButton:hover {
+    color: var(--color-primary);
+  }
