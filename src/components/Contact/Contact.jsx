@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import styles from "./Contact.module.css";
+import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
+import { ToastContainer, toast } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
 export const Contact = () => {
   const [formData, setFormData] = useState({
@@ -25,12 +29,33 @@ export const Contact = () => {
       },
       body: new URLSearchParams(formData).toString(),
     })
-      .then(() => alert("Message sent successfully!"))
-      .catch((error) => alert("Error sending message. Please try again later."));
+      .then(() => {
+        toast.success("Message sent successfully!", {
+          iconTheme: {
+            primary: '#add8e6', // Light blue tick color
+            secondary: '#ffffff', // White background for the icon
+          },
+          progressStyle: {
+            background: '#add8e6', // Light blue progress bar
+          },
+        });
+      })
+      .catch((error) => {
+        toast.error("Error sending message. Please try again later.", {
+          iconTheme: {
+            primary: '#add8e6', // Light blue tick color
+            secondary: '#ffffff', // White background for the icon
+          },
+          progressStyle: {
+            background: '#add8e6', // Light blue progress bar
+          },
+        });
+      });
   };
 
   return (
     <section id="contact" className={styles.container}>
+      <ToastContainer />
       <div className={styles.text}>
         <h2>CONTACT</h2>
       </div>
@@ -68,11 +93,44 @@ export const Contact = () => {
           Let's talk
         </button>
       </form>
+      <div className={styles.socialContainer}>
+        <h1>FIND ME ON</h1>
+        <p>
+          Feel free to <span className={styles.purple}>connect </span>with me
+        </p>
+        <ul className={styles.socialLinks}>
+          <li className={styles.socialIcon}>
+            <a
+              href="https://github.com/VedantModhave"
+              target="_blank"
+              rel="noreferrer"
+              className={styles.iconColour}
+            >
+              <AiFillGithub />
+            </a>
+          </li>
+          <li className={styles.socialIcon}>
+            <a
+              href="https://twitter.com/VedantModhave"
+              target="_blank"
+              rel="noreferrer"
+              className={styles.iconColour}
+            >
+              <AiOutlineTwitter />
+            </a>
+          </li>
+          <li className={styles.socialIcon}>
+            <a
+              href="https://www.linkedin.com/in/vedant-modhave/"
+              target="_blank"
+              rel="noreferrer"
+              className={styles.iconColour}
+            >
+              <FaLinkedinIn />
+            </a>
+          </li>
+        </ul>
+      </div>
     </section>
   );
 };
-
-
-
-
-
