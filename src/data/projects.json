@@ -1,25 +1,41 @@
 [
   {
+    "title": "Cultural AI",
+    "imageSrc": "projects/cultural.png",
+    "description": "Cultural Artifact Recognition: Preserving Heritage Through AI",
+    "skills": ["React.js", "Node.js", "Express.js", "jsPDF", "Tesseract-OCR"],
+    "demo": "https://github.com/Status-200-hack/Legal-AI-Pro",
+    "source": "https://github.com/Status-200-hack/Legal-AI-Pro"
+  },
+  {
+    "title": "LegalAI Pro",
+    "imageSrc": "projects/legalai-pro.png",
+    "description": "Tranform legal research with LegalAI Pro, an AI-powered platform that simplifies case law analysis, legal document generation, and contract review, enhancing efficiency and accuracy for legal professionals.",
+    "skills": ["React.js", "Node.js", "Express.js", "jsPDF", "Tesseract-OCR"],
+    "demo": "https://github.com/Status-200-hack/Legal-AI-Pro",
+    "source": "https://github.com/Status-200-hack/Legal-AI-Pro"
+  },
+  {
+    "title": "FinGyaan",
+    "imageSrc": "projects/fingyaan.png",
+    "description": "A financial literacy platform to simplify budgeting, saving, investing, and retirement planning, empowering users to make informed and secure financial decisions.",
+    "skills": ["React.js", "Firebase", "Chatbase"],
+    "demo": "https://codeissance2024.web.app/",
+    "source": "https://github.com/VedantModhave/FinGyaan"
+  },
+  {
     "title": "NGO-Hub",
     "imageSrc": "projects/ngo.png",
     "description": "Developed a comprehensive platform for efficient NGO management, featuring user-friendly interfaces, secure authentication, and role-based access for managing volunteers, admins, and other operational aspects.",
-    "skills": ["React", "Firebase", "Chatbase"],
+    "skills": ["React.js", "Firebase", "Chatbase"],
     "demo": "https://nfcngo-41f2b.firebaseapp.com",
     "source": "https://github.com/VedantModhave/NFC_3.0_Status200"
-  },
-  {
-    "title": "Signexo",
-    "imageSrc": "projects/sign.png",
-    "description": "A Digital Signature Tool, a simple, secure website built using React.js and Firebase to sign your PDFs with authentication",
-    "skills": ["React", "Firebase", "jsPDF"],
-    "demo": "https://pdftron-sign-app-bf74e.web.app",
-    "source": "https://github.com/VedantModhave/Signexo"
   },
   {
     "title": "EcoDrive",
     "imageSrc": "projects/ecodrive.png",
     "description": "A carpooling application that enhances ride-sharing experiences by providing real-time distances with fares and leveraging Maps API to display available drivers along your chosen route.",
-    "skills": ["React", "Firebase", "Google Maps"],
+    "skills": ["React.js", "Firebase", "Google Maps"],
     "demo": "https://8jt689-5173.csb.app/home",
     "source": "https://github.com/VedantModhave/EcoDrive"
   },
@@ -27,7 +43,7 @@
     "title": "MentorConnect",
     "imageSrc": "projects/mentor.png",
     "description": "A platform connecting candidates with industry mentors for career guidance, skill development, and employment support through automated scheduling and integrated virtual sessions.",
-    "skills": ["React", "Firebase", "Calendly", "WebRTC", "WebSocket"],
+    "skills": ["React.js", "WebSocket", "Calendly", "WebRTC", "Firebase"],
     "demo": "https://sih-mentorconnect.netlify.app/",
     "source": "https://github.com/Jatin-gorana/SIH_Status200"
   }

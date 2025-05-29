@@ -1,10 +1,20 @@
 [
   {
+    "role": "Frontend Dev Intern",
+    "organisation": "Lonely Bag",
+    "startDate": "February, 2025",
+    "endDate": "Present",
+    "location": "Remote",
+    "experiences": ["Building the Lonely Bag application using Flutter", "Implemented features like user authentication, profile management, and order placing"],
+    "imageSrc": "history/lonely-logo.webp"
+  },
+  
+  {
     "role": "Intern",
     "organisation": "JSW Steel",
     "startDate": "June, 2024",
     "endDate": "July, 2024",
-    "experiences": ["Developed a Digital Signature Application using React and Firebase", "Focused on enhancing user authentication with pdf signing feature"],
+    "experiences": ["Developed a Digital Signature Application using React.js and Firebase", "Focused on enhancing user authentication with pdf signing feature"],
     "imageSrc": "history/jsw.jpeg"
   },
 
@@ -12,9 +22,10 @@
     "role": "Core Team Member",
     "organisation": "GDG TSEC",
     "startDate": "Sept, 2023",
-    "endDate": "Present",
+    "endDate": "March, 2025",
     "experiences": [
-      "Organized an UI/UX Hackathon",
+      "Led an 48-hour AI/ML Hackathon",
+      "Organized an Frontend Hackathon",
       "Facilitated the Google Cloud Study Jams"
     ],
     "imageSrc": "history/gdg1.png"

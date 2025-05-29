@@ -1,5 +1,9 @@
 [
   {
+    "title": "Flutter",
+    "imageSrc": "skills/flutter.png"
+  },
+  {
     "title": "Python",
     "imageSrc": "skills/python.png"
   },
@@ -8,7 +12,7 @@
     "imageSrc": "skills/java.png"
   },
   {
-    "title": "React",
+    "title": "React.js",
     "imageSrc": "skills/react.png"
   },
   {

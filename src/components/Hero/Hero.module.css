@@ -51,6 +51,17 @@
   animation-delay: 0.9s;
 }
 
+/* New Button Group */
+.buttonGroup {
+  display: flex;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+  opacity: 0;
+  animation: fadeInUp 1s forwards;
+  animation-delay: 1.2s;
+}
+
+/* Existing contact button */
 .contactBtn {
   text-decoration: none;
   background-color: var(--color-primary);
@@ -60,13 +71,30 @@
   font-weight: 600;
   padding: 17px 26px;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
-  opacity: 0;
-  animation: fadeInUp 1s forwards;
-  animation-delay: 1.2s;
   transition: all 0.3s ease;
 }
 
 .contactBtn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px var(--color-primary);
+}
+
+/* New download button */
+.downloadBtn {
+  text-decoration: none;
+  background-color: transparent;
+  color: var(--color-text);
+  border: 2px solid var(--color-primary);
+  border-radius: 100px;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 17px 26px;
+  transition: all 0.3s ease;
+}
+
+.downloadBtn:hover {
+  background-color: var(--color-primary);
+  color: #fff;
   transform: scale(1.05);
   box-shadow: 0 0 15px var(--color-primary);
 }
@@ -95,10 +123,10 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-10px); /* Moves the image upwards */
+    transform: translateY(-10px);
   }
   100% {
-    transform: translateY(0); /* Moves back to original position */
+    transform: translateY(0);
   }
 }
 
@@ -135,5 +163,16 @@
 
   .content {
     align-items: center;
+  }
+
+  .title,
+  .description,
+  .contactBtn,
+  .downloadBtn {
+    text-align: center;
+  }
+
+  .buttonGroup {
+    justify-content: center;
   }
 }
