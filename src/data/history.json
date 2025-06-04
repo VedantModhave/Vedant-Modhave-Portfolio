@@ -1,5 +1,15 @@
 [
   {
+    "role": "Data Science & System Engineer Intern",
+    "organisation": "Opsis - Emotion AI",
+    "startDate": "June, 2025",
+    "endDate": "Present",
+    "location": "Remote - Singapore",
+    "experiences": ["Support Data Scientist team in projects", "System engineering support AWS infrastructure performance and conduct 1st tier trouble shooting", "Product testing"],
+    "imageSrc": "https://opsis.ai/wp-content/uploads/2020/03/Opsis-Emotion-AI-logo-transparent-background.png"
+  },
+
+  {
     "role": "Frontend Dev Intern",
     "organisation": "Lonely Bag",
     "startDate": "February, 2025",
