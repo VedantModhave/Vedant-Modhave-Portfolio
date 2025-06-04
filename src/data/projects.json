@@ -12,7 +12,7 @@
     "imageSrc": "projects/legalai-pro.png",
     "description": "Tranform legal research with LegalAI Pro, an AI-powered platform that simplifies case law analysis, legal document generation, and contract review, enhancing efficiency and accuracy for legal professionals.",
     "skills": ["React.js", "Node.js", "Express.js", "jsPDF", "Tesseract-OCR"],
-    "demo": "https://github.com/Status-200-hack/Legal-AI-Pro",
+    "demo": "https://legalally.netlify.app",
     "source": "https://github.com/Status-200-hack/Legal-AI-Pro"
   },
   {
