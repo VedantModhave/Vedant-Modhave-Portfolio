@@ -69,7 +69,7 @@
   border-radius: 100px;
   font-size: 30px;
   font-weight: 600;
-  padding: 17px 26px;
+  padding: 10px 26px;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
   transition: all 0.3s ease;
 }
@@ -79,24 +79,23 @@
   box-shadow: 0 0 15px var(--color-primary);
 }
 
-/* New download button */
 .downloadBtn {
   text-decoration: none;
   background-color: transparent;
-  color: var(--color-text);
-  border: 2px solid var(--color-primary);
-  border-radius: 100px;
-  font-size: 30px;
+  color: #fff; /* White text to match the image */
+  border: 2px solid #fff; /* White border to match the image */
+  border-radius: 50px; /* Matches the rounded shape in the image */
+  font-size: 20px; /* Reduced from 24px for a smaller look */
   font-weight: 600;
-  padding: 17px 26px;
+  padding: 10px 18px; /* Adjusted padding for smaller size */
+  display: inline-flex; /* Ensures proper centering of text */
+  align-items: center; /* Vertically centers the text */
+  justify-content: center; /* Horizontally centers the text */
   transition: all 0.3s ease;
 }
 
 .downloadBtn:hover {
-  background-color: var(--color-primary);
-  color: #fff;
   transform: scale(1.05);
-  box-shadow: 0 0 15px var(--color-primary);
   box-shadow: 0 0 15px var(--color-primary);
 }
 
