@@ -16,7 +16,7 @@ export const Hero = () => {
             Let's Connect!
           </a>
           <a
-            href="https://drive.google.com/file/d/18Zraurnoejrke1iKs8DaK7gCBlfe1HRr/view?usp=sharing"
+            href="https://drive.google.com/file/d/1Uog9eLz9yGPPf3DkWOUs5jrmT6m4CwRp/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.downloadBtn}
