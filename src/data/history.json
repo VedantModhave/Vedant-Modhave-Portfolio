@@ -1,15 +1,5 @@
 [
   {
-    "role": "Data Science & System Engineer Intern",
-    "organisation": "Opsis - Emotion AI",
-    "startDate": "June, 2025",
-    "endDate": "Present",
-    "location": "Remote - Singapore",
-    "experiences": ["Support Data Scientist team in projects", "System engineering support AWS infrastructure performance and conduct 1st tier trouble shooting", "Product testing"],
-    "imageSrc": "history/Opsis.webp"
-  },
-
-  {
     "role": "Frontend Dev Intern",
     "organisation": "Lonely Bag",
     "startDate": "February, 2025",
@@ -17,6 +7,16 @@
     "location": "Remote",
     "experiences": ["Building the Lonely Bag application using Flutter", "Implemented features like user authentication, profile management, and order placing"],
     "imageSrc": "history/lonely-logo.webp"
+  },
+
+  {
+    "role": "Data Science & System Engineer Intern",
+    "organisation": "Opsis - Emotion AI",
+    "startDate": "June, 2025",
+    "endDate": "July, 2025",
+    "location": "Remote - Singapore",
+    "experiences": ["Support Data Scientist team in projects", "System engineering support app testing based on created test-cases"],
+    "imageSrc": "history/Opsis.webp"
   },
   
   {
