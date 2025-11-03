@@ -3,8 +3,8 @@
     "title": "Cultural AI",
     "imageSrc": "projects/cultural.png",
     "description": "Cultural Artifact Recognition: Preserving Heritage Through AI",
-    "skills": ["React.js", "Node.js", "Express.js", "jsPDF", "Tesseract-OCR"],
-    "demo": "https://github.com/Jatin-gorana/RUBIX25_3_Status200",
+    "skills": ["React.js", "Node.js", "Express.js", "Trellis"],
+    "demo": "https://culturalheritageexplorer.netlify.app",
     "source": "https://github.com/Jatin-gorana/RUBIX25_3_Status200"
   },
   {
@@ -27,7 +27,7 @@
     "title": "NGO-Hub",
     "imageSrc": "projects/ngo.png",
     "description": "Developed a comprehensive platform for efficient NGO management, featuring user-friendly interfaces, secure authentication, and role-based access for managing volunteers, admins, and other operational aspects.",
-    "skills": ["React.js", "Firebase", "Chatbase"],
+    "skills": ["React.js", "Firebase", "Node.js", "Chatbase"],
     "demo": "https://nfcngo-41f2b.firebaseapp.com",
     "source": "https://github.com/VedantModhave/NFC_3.0_Status200"
   },
